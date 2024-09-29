@@ -49,7 +49,7 @@ def extract_video_id(url):
 def fetch_youtube_comments(video_url):
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyBfzcKf0lx8uEITv0L1iD139fWxa7TGFbQ"  # Replace with your API key
+    DEVELOPER_KEY = # Ganti dengan kunci API Anda\n
 
     youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=DEVELOPER_KEY)
     video_id = extract_video_id(video_url)
